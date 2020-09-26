@@ -1,4 +1,4 @@
-# bubblechart
+# bubble-chart(动态气泡图)
 
 ## Project setup
 ```
