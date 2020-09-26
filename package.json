@@ -15,7 +15,12 @@
     "@vue/cli-plugin-babel": "^4.5.0",
     "@vue/cli-plugin-eslint": "^4.5.0",
     "@vue/cli-service": "^4.5.0",
+    "axios": "^0.20.0",
     "babel-eslint": "^10.1.0",
+    "d3": "^5.16.0",
+    "d3-render": "^0.2.4",
+    "d3-selection": "^1.4.2",
+    "d3-transition": "^2.0.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.11"
@@ -32,7 +37,10 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars": "off",
+      "no-undef": "off"
+    }
   },
   "browserslist": [
     "> 1%",
